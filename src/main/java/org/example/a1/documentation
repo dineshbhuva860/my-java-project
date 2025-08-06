@@ -1,0 +1,25 @@
+Create a class called Person with:
+        name (String)
+        age (int)
+        gender (String)
+
+Create another class Employee that inherits from Person. Add these extra fields:
+        employeeId (int)
+        department (String)
+        salary (double)
+        role (use Enum like ADMIN, MANAGER, STAFF)
+        joinDate (use LocalDate)
+
+Create an interface called Payable with a method:
+        double calculateAnnualSalary();
+Make the Employee class implement this and return salary * 12.
+
+Add Features in Main Program
+Write a simple EmployeeManager class with a main() method where you:
+        Create a list of employees (at least 5)
+        Print all employee details
+        Filter employees with salary more than ₹50,000
+        Group employees by department and count them
+        Sort employees by join date
+        Print employee names using method reference
+        Find the highest paid employee using Optional and stream().max()
